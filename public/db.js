@@ -1,4 +1,4 @@
-//Create a new IDB database for online use
+//Create a new IDB database for offline use
 let db;
 const request = indexedDB.open("budget", 1);
 
